@@ -58,7 +58,7 @@ class _NewsPageState extends State<NewsPage> {
             return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  YMargin(hp(35)),
+                  YMargin(hp(29)),
                   Center(
                       child: SpinKitSquareCircle(
                     color: CardColors.green,

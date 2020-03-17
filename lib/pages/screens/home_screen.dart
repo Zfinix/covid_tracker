@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  YMargin(hp(35)),
+                  YMargin(hp(29)),
                   Center(
                       child: SpinKitSquareCircle(
                     color: CardColors.green,

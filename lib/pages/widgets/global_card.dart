@@ -88,7 +88,7 @@ class GlobalSituationCard extends StatelessWidget {
                       ],
                     ),
                     Padding(
-                      padding: const EdgeInsets.all(20),
+                      padding: const EdgeInsets.only(left:20),
                       child: Row(
                         children: <Widget>[
                           Column(
@@ -105,7 +105,7 @@ class GlobalSituationCard extends StatelessWidget {
                                       fontSize: 29),
                                 ),
                               ),
-                              const YMargin(20),
+                              const YMargin(16),
                               Text(
                                 caseTitle ?? "",
                                 style: GoogleFonts.cabin(
@@ -132,7 +132,7 @@ class GlobalSituationCard extends StatelessWidget {
                                       fontSize: 29),
                                 ),
                               ),
-                              const YMargin(20),
+                              const YMargin(16),
                               Text(
                                 "New",
                                 style: GoogleFonts.cabin(
@@ -158,7 +158,7 @@ class GlobalSituationCard extends StatelessWidget {
           alignment: Alignment.bottomRight,
           child: Column(
             children: <Widget>[
-              const YMargin(150),
+              const YMargin(130),
               Container(
                 width: 58,
                 height: 58,

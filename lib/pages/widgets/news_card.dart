@@ -25,7 +25,7 @@ class NewsCard extends StatelessWidget {
           },
           child: Container(
             width: screenWidth(context),
-            height: screenHeight(context, percent: 0.18),
+            height: screenHeight(context, percent: 0.21),
             margin: EdgeInsets.symmetric(horizontal: 25, vertical: 9),
             padding: EdgeInsets.only(left: 4),
             decoration: BoxDecoration(
@@ -100,7 +100,7 @@ class NewsCard extends StatelessWidget {
                 Flexible(
                   flex: 4,
                   child: Container(
-                    height: screenHeight(context, percent: 0.18),
+                    height: screenHeight(context, percent: 0.21),
                     decoration: BoxDecoration(
                         color: Colors.grey[200],
                         borderRadius: BorderRadius.circular(10),
